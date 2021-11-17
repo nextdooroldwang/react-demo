@@ -1,5 +1,5 @@
-import { Select, Button } from 'antd';
 import { setLocale, useIntl, useModel } from 'umi';
+import { Select, Button } from 'antd';
 
 import styles from './index.less';
 

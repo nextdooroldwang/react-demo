@@ -20,12 +20,9 @@ export default function useAuthModel() {
     },
   );
 
-  const signin = useCallback(
-    (username: string, password: string) => {
-      run(username, password);
-    },
-    [run],
-  );
+  const signin = useCallback((username: string, password: string) => {
+    run(username, password);
+  }, []);
 
   const signout = useCallback(() => {
     setToken(undefined);
