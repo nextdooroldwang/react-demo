@@ -1,6 +1,6 @@
 import { IRouteComponentProps, Redirect, useAccess, useModel } from 'umi';
 
-export default (props: IRouteComponentProps) => {
+export default function Auth(props: IRouteComponentProps) {
   const access = useAccess();
   const { token } = useModel('useAuthModel');
   const isLogin = access.isLogin;
@@ -10,4 +10,4 @@ export default (props: IRouteComponentProps) => {
   } else {
     return <Redirect to="/login" />;
   }
-};
+}
