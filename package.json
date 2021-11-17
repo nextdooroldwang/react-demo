@@ -7,7 +7,7 @@
     "prettier": "prettier --write '**/*.{js,jsx,tsx,ts,less,md,json}'",
     "test": "umi-test",
     "test:coverage": "umi-test --coverage",
-    "lint": "tsc --noEmit && eslint \"./**/*.ts\" \"./**/*.tsx\" && stylelint \"./src/**/*.less\"",
+    "lint": "eslint \"./**/*.ts\" \"./**/*.tsx\" && stylelint \"./src/**/*.less\"",
     "stylelint": "stylelint --cache \"./src/**/*.less\"",
     "fix:ts": "eslint --fix \"./**/*.ts\" \"./**/*.tsx\"",
     "fix:less": "stylelint \"./src/**/*.less\" --fix"
