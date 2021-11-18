@@ -28,7 +28,7 @@ module.exports = {
   rules: {
     '@typescript-eslint/no-unused-vars': ['error', { argsIgnorePattern: '^_' }],
     '@typescript-eslint/no-non-null-assertion': 'off',
-    '@typescript-eslint/consistent-type-definitions': ['error', 'type'],
+    // '@typescript-eslint/consistent-type-definitions': ['error', 'type'],
     '@typescript-eslint/no-inferrable-types': 'off',
     '@typescript-eslint/explicit-module-boundary-types': 'off',
     'import/no-self-import': 'error',
