@@ -24,5 +24,7 @@ export default defineConfig({
   request: {
     dataField: '',
   },
-  mfsu: {},
+  mfsu: {
+    production: {},
+  },
 });
