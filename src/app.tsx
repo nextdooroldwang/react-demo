@@ -16,7 +16,7 @@ export const request: RequestConfig = {
   requestInterceptors: [
     (url, options) => {
       return {
-        url,
+        url: API_BASE_URL + url,
         options: {
           ...options,
         },
